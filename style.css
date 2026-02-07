@@ -1,0 +1,192 @@
+body {
+  background-color: #222;
+  color: #EEE;
+  font-family: Courier;
+  margin: 0%;
+}
+header {
+  top: 0%;
+  left: 0%;
+  right: 0%;
+	font-size: 150%;
+	text-align: center;
+	background-color: #222;
+  background: linear-gradient(180deg, #222 0%, #111 100%);	
+  border-color: #111;
+	border-style: none none solid none;
+}
+section {
+  font-size: 100%;
+  background-color: #222;
+  border-color: #AEF;
+  border-style: solid;
+  border-radius: 1vw;
+} 
+button {
+  text-align: center;
+  background-color: #000;
+}
+footer {
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  overflow: hidden; 
+  background-color: #222;
+  background: linear-gradient(180deg, #222 0%, #111 100%);	
+  border-color: #FAE;
+	border-style: solid none none none;
+  margin: 0px;
+}
+h1 {
+  font-size: 200%;
+  text-align: center;
+  margin: 1vw;
+}
+h2 {
+  font-size: 150%;
+  text-align: center;
+  margin: 1vw;
+}
+h3 {
+  font-size: 100%;
+  text-align: center;
+  margin: 1vw;
+}
+p {
+  font-size: 100%;
+  margin: 1vw;
+}
+a {
+  color: #AEF;
+  text-decoration: none;
+}
+a:visited {
+  color: #FAE;
+  text-decoration: none;
+}
+button {
+  color: #EEE;
+  font-family: Courier;
+  margin: 0%;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+
+.navbar {
+  position: sticky;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  overflow: hidden;
+  background-color: #222;
+  background: linear-gradient(0deg, #222 0%, #111 100%);	
+  border-color: #AEF;
+	border-style: none none solid none;
+  margin: 0px;
+}
+
+.navbar .navlink {
+  float: left;
+  width: 9vw;
+  display: block;
+  color: #EEE;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+.navbar .navlink:hover {
+  box-shadow: none;
+  color: #222;
+  background-color: #FAE;
+  background: linear-gradient(0deg, #AEF 0%, #FAE 100%);
+  border: 0% none;
+  border-radius: 3vh 3vh 0% 0%;
+}
+
+.navbar .music {
+  margin: 0px;
+}
+.navbar .music-button {
+  float: right;
+  width: 9vw;
+  color: #EEE;
+  background-color: #222;
+  background: linear-gradient(0deg, #222 0%, #111 100%);
+  font-size: 100%;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px 20px;
+  border-style: none none none none;
+  border-color: #AEF;
+  text-decoration: none;
+}
+.navbar .music-button:hover {
+  box-shadow: none;
+  color: #222;
+  background-color: #FAE;
+  background: linear-gradient(0deg, #AEF 0%, #FAE 100%);
+  border: 0% none;
+  border-radius: 3vh 3vh 0% 0%;
+}
+.navbar .music-name{
+  float: right;
+  font-size: 100%;
+  text-align: right;
+  margin: 0px;
+  margin-right: 1vw;
+}
+
+
+.row {
+  background: linear-gradient(0deg, #FAE 0%, #111 10%, #111 90%, #AEF 100%);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.side {
+  flex: 25%;
+  padding: 20px;
+  margin-left: 2%;
+  margin-right: 0.5%;
+}
+.side-section {
+  background-color: #222;
+  border-color: #AEF;
+  border-style: solid;
+  border-radius: 1vw;
+}
+.profile {
+  width: 75%;
+  margin-left: 12.5%;
+  border-radius: 10%;
+}
+.profile-button {
+  width: 30%;
+  border-radius: 10px;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+}
+
+.main {
+  flex: 70%;
+  padding: 20px;
+  margin-left: 0.5%;
+  margin-right: 2%;
+}
+.main-section {
+  background-color: #222;
+  border-color: #FAE;
+  border-style: solid;
+  border-radius: 1vw;
+}
+
+
+.main-section .shrine-icon {
+  width: 30%;
+  border-radius: 10%;
+  margin-top: 1vw;
+}

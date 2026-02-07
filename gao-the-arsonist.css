@@ -1,0 +1,185 @@
+body {
+  background-color: #222;
+  color: #000;
+  font-family: Courier;
+  margin: 0%;
+}
+header {
+  top: 0%;
+  left: 0%;
+  right: 0%;
+	bottom: 0%;
+	font-size: 150%;
+	text-align: center;
+  background: url("shrines/gao-the-arsonist/gao-header.jpg");
+	margin: 0px;
+}
+section {
+  font-size: 100%;
+  background-color: #222;
+  border-style: outset;
+} 
+button {
+  text-align: center;
+  background-color: #000;
+}
+footer {
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  overflow: hidden; 
+  background-color: #222;
+  background: linear-gradient(180deg, #222 0%, #111 100%);
+	border-style: outset none none none;
+  margin: 0px;
+}
+h1 {
+  font-size: 200%;
+  text-align: center;
+	color: orange;
+	border: #666 outset;
+	margin: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+h2 {
+  font-size: 150%;
+  text-align: center;
+  margin: 1vw;
+}
+h3 {
+  font-size: 100%;
+  text-align: center;
+  margin: 1vw;
+}
+p {
+  font-size: 100%;
+  margin: 1vw;
+}
+a {
+  color: #999;
+  text-decoration: none;
+}
+a:visited {
+  color: #222;
+  text-decoration: none;
+}
+button {
+  color: #EEE;
+  font-family: Courier;
+  margin: 0%;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+
+.navbar {
+  position: sticky;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  overflow: hidden;
+  background-color: #222;
+  background: #666;
+	border-style: inset;
+	border-color: #999;
+  margin: 0px;
+}
+
+.navbar .navlink {
+  float: left;
+  width: 9vw;
+  display: block;
+	background-color: #999;
+	border: outset;
+	border-color: #666;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+.navbar .navlink:hover {
+  color: #222;
+	background-color: #999;
+  border: inset;
+	border-color: #666;
+}
+
+.navbar .music {
+  margin: 0px;
+}
+.navbar .music-button {
+  float: right;
+  width: 9vw;
+  color: #222;
+  background-color: #999;
+  font-size: 100%;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px 20px;
+  border-style: outset;
+  border-color: #666;
+  text-decoration: none;
+}
+.navbar .music-button:hover {
+  color: #222;
+  background-color: #999;
+  border: inset;
+	border-color: #666;
+}
+.navbar .music-name{
+  float: right;
+  font-size: 100%;
+  text-align: right;
+  margin: 0px;
+  margin-right: 1vw;
+}
+
+
+.row {
+  background: url("shrines/gao-the-arsonist/gao-background.jpg");
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.side {
+  flex: 25%;
+  padding: 20px;
+  margin-left: 2%;
+  margin-right: 0.5%;
+}
+.side-section {
+  background-color: #222;
+  border-style: outset;
+}
+.profile {
+  width: 75%;
+  margin-left: 12.5%;
+  border-radius: 10%;
+}
+.profile-button {
+  width: 30%;
+  border-radius: 10px;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+}
+
+.main {
+  flex: 70%;
+  padding: 20px;
+  margin-left: 0.5%;
+  margin-right: 2%;
+}
+.main-section {
+  background-color: #222;
+  border-style: inset;
+}
+
+
+.main-section .shrine-icon {
+  width: 30%;
+  border-radius: 10%;
+  margin-top: 1vw;
+}
